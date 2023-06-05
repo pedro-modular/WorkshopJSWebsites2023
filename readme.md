@@ -19,11 +19,16 @@ Este workshop consiste em vários módulos, cada um cobrindo um tópico específ
    - Introdução ao AJAX e ao JSON
    - Efectuar pedidos de API e tratar respostas  
 
+## Navegação
+
+1. [Estrutura de HTML e o DOM](Html_1.md)
+2. [Introdução ao Javascript](Javascript_1.md)
+
 ## Recursos
 
 Além dos módulos do workshop, também podes explorar os seguintes recursos para aprofundar a compreensão do JavaScript:
 
-- MDN Web Docs: [Guia do JavaScript] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- MDN Web Docs: [Guia do JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 - W3Schools: [Tutorial de JavaScript](https://www.w3schools.com/js/)
 - JavaScript Eloquente: [Livro on-line](https://eloquentjavascript.net/)
 
