@@ -1,3 +1,5 @@
+[Home](README.md)
+
 ### O HTML e a sua estrutura
 
 HTML (Hypertext Markup Language) é a linguagem de markup padrão para a criação de páginas Web.  
@@ -103,8 +105,14 @@ Seleciona o primeiro elemento que corresponde a um seletor CSS específico.
 
 **Exemplo**:
 
-``` Html 
+``` Html
 <p id="destaque"> Apresentação de um exemplo de código. </p>
+```
+Para aceder ao conteúdo disponível no paragrafo:  
+
+``` Javascript
+var elemento_destaque = document.getElementById('destaque');
+console.log(elemento_destaque) /* Resposta com o node <p></p>
 ```
 
 (consultar lista completa em <https://developer.mozilla.org/en-US/docs/Web/API/Document>)

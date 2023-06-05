@@ -1,3 +1,5 @@
+[Home](README.md)
+
 # Sessão 1: Introdução ao JavaScript
 
 ## O que é JavaScript?
