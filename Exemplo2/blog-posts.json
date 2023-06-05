@@ -1,0 +1,17 @@
+[
+  {
+    "title": "First Post",
+    "author": "John Doe",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, tellus eget consequat scelerisque, purus sem semper turpis, in consequat urna nisl id metus."
+  },
+  {
+    "title": "Second Post",
+    "author": "Jane Smith",
+    "content": "Vestibulum nec diam augue. Maecenas rutrum turpis id leo commodo interdum. Etiam ac nunc mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+  },
+  {
+    "title": "Third Post",
+    "author": "David Johnson",
+    "content": "Fusce et mi at tortor pretium maximus. Aliquam convallis bibendum erat, ac cursus purus blandit vitae. Integer mattis pretium enim, eu semper augue bibendum quis."
+  }
+]
