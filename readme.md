@@ -23,6 +23,7 @@ Este workshop consiste em vários módulos, cada um cobrindo um tópico específ
 
 1. [Estrutura de HTML e o DOM](Html_1.md)
 2. [Introdução ao Javascript](Javascript_1.md)
+3. [Localstorage](Localstorage_1.md)
 
 ## Recursos
 
