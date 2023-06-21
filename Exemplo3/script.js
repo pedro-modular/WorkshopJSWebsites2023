@@ -60,8 +60,8 @@ function displayBooks() {
 
     // Adiciona o nome do livro e os botões Editar e Apagar ao item da lista
     li.innerHTML = book.name + ' ' +
-      '<button onclick="editBook(' + id + ')">Edit</button>' +
-      '<button onclick="deleteBook(' + id + ')">Delete</button>';
+      '<button onclick="editBook(' + id + ')">Editar</button>' +
+      '<button onclick="deleteBook(' + id + ')">Apagar</button>';
 
     // Adiciona o item da lista à lista de livros apresentada
     bookList.appendChild(li);
@@ -72,7 +72,7 @@ function displayBooks() {
 function editBook(id) {
 
   // Pergunta ao utilizador o novo nome do livro
-  var newBookName = prompt('Enter the new book name');
+  var newBookName = prompt('Introduza o nome do livro:');
 
   // Se o utilizador introduziu um novo nome...
   if (newBookName) {
