@@ -25,6 +25,12 @@ Este workshop consiste em vários módulos, cada um cobrindo um tópico específ
 2. [Introdução ao Javascript](Javascript_1.md)
 3. [Localstorage](Localstorage_1.md)
 
+## Exemplos
+
+1. [Exemplo1](Exemplo1/index.html)
+2. [Exemplo2](Exemplo2/index.html)
+3. [Exemplo3](Exemplo3/index.html)
+
 ## Recursos
 
 Além dos módulos do workshop, também podes explorar os seguintes recursos para aprofundar a compreensão do JavaScript:
