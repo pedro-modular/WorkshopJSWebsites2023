@@ -30,6 +30,7 @@ Este workshop consiste em vários módulos, cada um cobrindo um tópico específ
 1. [Exemplo1](Exemplo1/index.html)
 2. [Exemplo2](Exemplo2/index.html)
 3. [Exemplo3](Exemplo3/index.html)
+4. [Exemplo4](Exemplo4/index.html)
 
 ## Recursos
 
