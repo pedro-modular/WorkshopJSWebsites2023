@@ -20,6 +20,7 @@ var quizData = [
 // Estado do questionário
 var currentQuestion = 0;
 var score = 0;
+var previousScore = localStorage.getItem('quizScore');
 
 // Devolve os elementos de DOM
 var questionSection = document.getElementById('question-section');
@@ -63,13 +64,20 @@ function selectAnswer(e) {
   } else {
     showResults();
   }
+
+  // Store the current score in LocalStorage
+  localStorage.setItem('quizScore', score);
 }
 
 // Método para apresentar os resultados
 function showResults() {
   questionSection.style.display = 'none';
   resultsSection.style.display = 'block';
-  scoreElement.textContent = 'Your score: ' + score + '/' + quizData.length;
+
+  var currentScoreText = 'Pontuação: ' + score + '/' + quizData.length;
+  var previousScoreText = 'Pontuação anterior: ' + (previousScore ? previousScore + '/' + quizData.length : 'Não houve tentativas');
+
+  scoreElement.textContent = currentScoreText + ' | ' + previousScoreText;
 }
 
 // Inicializa o questionário
